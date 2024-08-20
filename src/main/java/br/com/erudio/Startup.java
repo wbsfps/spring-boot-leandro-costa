@@ -5,10 +5,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootLeandroCostaApplication implements CommandLineRunner {
+public class Startup implements CommandLineRunner {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootLeandroCostaApplication.class, args);
+		SpringApplication.run(Startup.class, args);
 	}
 
 
