@@ -5,15 +5,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Startup implements CommandLineRunner {
+public class Startup {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Startup.class, args);
 	}
 
-
-	@Override
-	public void run(String... args) throws Exception {
-		System.out.println("Teste");
-	}
 }
