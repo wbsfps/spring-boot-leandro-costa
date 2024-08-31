@@ -1,4 +1,4 @@
-package br.com.erudio;
+package br.com.erudio5;
 
 import org.springframework.web.bind.annotation.*;
 
