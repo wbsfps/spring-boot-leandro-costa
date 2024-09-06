@@ -1,6 +1,6 @@
 package br.com.erudio9.controller;
 
-import br.com.erudio9.model.PersonVO;
+import br.com.erudio9.data.vo.v1.PersonVO;
 import br.com.erudio9.services.PersonServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;

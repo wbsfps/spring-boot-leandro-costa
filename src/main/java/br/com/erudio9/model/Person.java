@@ -7,7 +7,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "person")
-public class PersonVO implements Serializable {
+public class Person implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
@@ -23,9 +23,9 @@ public class PersonVO implements Serializable {
     @Column(nullable = false, length = 6)
     private String gender;
 
-    public PersonVO(){}
+    public Person(){}
 
-    public PersonVO(Long id, String firstName, String lastName, String address, String gender) {
+    public Person(Long id, String firstName, String lastName, String address, String gender) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -77,7 +77,7 @@ public class PersonVO implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        PersonVO person = (PersonVO) o;
+        Person person = (Person) o;
         return Objects.equals(id, person.id) && Objects.equals(firstName, person.firstName) && Objects.equals(lastName, person.lastName) && Objects.equals(address, person.address) && Objects.equals(gender, person.gender);
     }
 

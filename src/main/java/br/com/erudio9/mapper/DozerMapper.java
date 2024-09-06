@@ -1,14 +1,13 @@
 package br.com.erudio9.mapper;
 
 
-
 import com.github.dozermapper.core.DozerBeanMapperBuilder;
 import com.github.dozermapper.core.Mapper;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class DozzerMapper {
+public class DozerMapper {
 
     private static Mapper mapper = DozerBeanMapperBuilder.buildDefault();
 
