@@ -1,12 +1,12 @@
-package br.com.erudio9.services;
+package br.com.erudio10.services;
 
-import br.com.erudio9.data.vo.v1.PersonVO;
-import br.com.erudio9.data.vo.v2.PersonVOV2;
-import br.com.erudio9.exceptions.ResourceNotFoundException;
-import br.com.erudio9.mapper.DozerMapper;
-import br.com.erudio9.mapper.custom.PersonMapper;
-import br.com.erudio9.model.Person;
-import br.com.erudio9.repositories.PersonRepository;
+import br.com.erudio10.data.vo.v1.PersonVO;
+import br.com.erudio10.data.vo.v2.PersonVOV2;
+import br.com.erudio10.exceptions.ResourceNotFoundException;
+import br.com.erudio10.mapper.DozerMapper;
+import br.com.erudio10.mapper.custom.PersonMapper;
+import br.com.erudio10.model.Person;
+import br.com.erudio10.repositories.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

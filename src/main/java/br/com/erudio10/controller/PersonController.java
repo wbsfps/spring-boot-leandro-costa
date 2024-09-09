@@ -1,8 +1,8 @@
-package br.com.erudio9.controller;
+package br.com.erudio10.controller;
 
-import br.com.erudio9.data.vo.v1.PersonVO;
-import br.com.erudio9.data.vo.v2.PersonVOV2;
-import br.com.erudio9.services.PersonServices;
+import br.com.erudio10.data.vo.v1.PersonVO;
+import br.com.erudio10.data.vo.v2.PersonVOV2;
+import br.com.erudio10.services.PersonServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
